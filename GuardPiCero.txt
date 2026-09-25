@@ -1,0 +1,10 @@
+What is this?
+GuardPiCero (GPC) es un simulador de monitoreo de seguridad local que recibe eventos de dispositivos, los analiza mediante reglas y genera alertas y registros
+
+Minimal behavior
+un dispositivo genera un evento
+-> GPC recibe el evento
+-> GPC analiza el evento
+-> cumple alguna regla?
+.-> NO -> normal
+.-> SI -> alerta -> log
